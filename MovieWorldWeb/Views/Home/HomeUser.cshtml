@@ -1,0 +1,28 @@
+﻿@model List<ApiMovieVM>
+@{
+    ViewData["Title"] = "HomeUser";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<table>
+
+    <tr>
+        <th>Banka Kod</th>
+        <th>Durum</th>
+        <th>Oran</th>
+        <th>TL</th>
+        <th>Ay</th>
+        <th>Site Linki</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Title</td>
+            
+        </tr>
+    }
+</table>
+
+
+
