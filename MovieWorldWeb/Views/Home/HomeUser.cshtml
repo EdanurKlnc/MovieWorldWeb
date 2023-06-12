@@ -5,15 +5,17 @@
 
 }
 
-<div class="container">
+<div class="container" >
 	 @foreach (var item in Model)
     {
 	<div class="movie-card">
 		<div class="movie-header manOfSteel">
+		
 			<div class="header-icon-container">
-				<a href="#">
+				<img src="@item.Poster_path" alt="image">
+				@*<a href="">
 					<i class="material-icons header-icon"></i>
-				</a>
+				</a>*@
 			</div>
 		</div><!--movie-header-->
 		<div class="movie-content">
@@ -25,21 +27,23 @@
 			</div>
 			<div class="movie-info">
 				<div class="info-section">
-					<label>Date & Time</label>
-					<span>Sun 8 Sept - 10:00PM</span>
+					<label>Yayın Tarihi</label>
+					<span>@item.Release_date</span>
 				</div><!--date,time-->
+
 				<div class="info-section">
-					<label>Screen</label>
-					<span>03</span>
+					<label>Puan</label>
+					<span>@item.Vote_average/10</span>
 				</div><!--screen-->
+
 				<div class="info-section">
-					<label>Row</label>
-					<span>F</span>
+					<label>Orijinal Dil</label>
+					<span>@item.Original_language</span>
 				</div><!--row-->
-				<div class="info-section">
-					<label>Seat</label>
-					<span>21,22</span>
-				</div><!--seat-->
+				@*<div class="info-section">
+					<label>Adult</label>
+					<span>@item.Adult</span>
+				</div><!--seat--*@>
 			</div>
 		</div><!--movie-content-->
 	</div><!--movie-card-->

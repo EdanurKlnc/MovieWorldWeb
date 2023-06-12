@@ -4,7 +4,9 @@ using MovieWorldWebEL.ResultModels;
 using MovieWorldWebEL.ViewModels;
 using Newtonsoft.Json;
 using System.Diagnostics;
+using System.IO;
 using System.Net;
+using System.Security.Policy;
 
 namespace MovieWorldWeb.Controllers
 {
@@ -26,6 +28,7 @@ namespace MovieWorldWeb.Controllers
             try
             {
                 string url = "https://api.themoviedb.org/3/movie/popular";
+                //string imgUrl = "https://image.tmdb.org/t/p/w342";
                 List<string> movies = new List<string>();
                 using (WebClient client = new WebClient()) // HttpClient WebClient
                 {
@@ -33,16 +36,25 @@ namespace MovieWorldWeb.Controllers
                     client.Headers.Add(HttpRequestHeader.ContentType, "application/json");
                     client.Headers.Add("Authorization", "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMzQyY2MxMjliN2E1MTQzNWNmOTkwMDQ0NTM5MmYyYyIsInN1YiI6IjYyNGM4NjYzY2MyNzdjMDBhOTA5MDhhYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.YSjieGErqHj6xpEzpBnAFx_Ui2TdHkwIFdNBU5mGp_k");
                     string resultJSON = client.DownloadString(url);
+
+					//string postBody = "field1=data1&field2=data2&field3=data3";
+					//string resultJsonImg = client.UploadString(imgUrl,postBody);
                     var data = JsonConvert.DeserializeObject<ApiResultModel<List<ApiMovieVM>>>(resultJSON);
-                    return View(data.Results);
+					var dataImg = JsonConvert.DeserializeObject<ApiResultModel<List<ApiMovieVM>>>(resultJSON);
+
+					return View(data.Results);
+
                 }
-             
-            }
-            catch (Exception ex)
+
+
+			}
+			catch (Exception ex)
             {
 
                 return View();
             }
+
+         
 
         }
 
