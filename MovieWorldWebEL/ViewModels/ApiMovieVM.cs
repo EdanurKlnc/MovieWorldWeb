@@ -8,11 +8,25 @@ namespace MovieWorldWebEL.ViewModels
 {
     public class ApiMovieVM
     {
-        public Boolean Adult { get; set; }
+        private const string imgUrl = "https://image.tmdb.org/t/p/w342";
+
+		public Boolean Adult { get; set; }
         public String Backdrop_path { get; set; }
         public List<int> Genre_ids { get; set; }
         public int Id { get; set; }
-        public String Poster_path { get; set; }
+        private string _posterPath;
+        public String Poster_path
+        {
+            get
+            {
+                return _posterPath;
+            }
+            set
+            {
+                _posterPath = $"{imgUrl}{value}";
+            }
+        
+        }
         public String Title { get; set; }
         public String Overview { get; set; }
         public String Original_title { get; set; }
