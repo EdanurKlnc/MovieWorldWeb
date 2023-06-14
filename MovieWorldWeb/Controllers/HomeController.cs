@@ -23,6 +23,7 @@ namespace MovieWorldWeb.Controllers
         {
             return View();
         }
+   
         public IActionResult HomeUser()
         {
             try
