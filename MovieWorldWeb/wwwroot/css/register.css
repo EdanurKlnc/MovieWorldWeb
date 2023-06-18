@@ -7,28 +7,27 @@
     font-size: 14px;
     letter-spacing: 1px;
 }
-.signin {
+.signup {
     background-color: #d3d3d3;
     font-family: 'Montserrat', sans-serif;
     color: #fff;
     font-size: 14px;
     letter-spacing: 1px;
-
 }
 
-/*Giriş kart*/
-.login {
+.register {
     position: relative;
-    height: 460px;
+    height: 560px;
     width: 305px;
     padding: 40px 40px;
-    margin:auto;
-    margin-top:50px;
-    border-radius:10px;
-    border-block-color:black;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    border-block-color: black;
     box-shadow: 0px 30px 60px -5px #000;
     background-color: rgba(120,120,120,0.5)
 }
+
 
 form {
     padding-top: 40px;
@@ -46,7 +45,6 @@ h2 {
     letter-spacing: 2px;
     display: inline-block;
     font-weight: 100;
-    
 }
 
     h2:first-child {
@@ -55,14 +53,13 @@ h2 {
 
 span {
     text-transform: uppercase;
-    font-family:'Times New Roman', Times, serif;
-    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     font-size: 15px;
     display: inline-block;
     position: relative;
     top: -65px;
     transition: all 0.8s ease-in-out;
-    
 }
 /*text in girileceği alan*/
 .text {
@@ -115,27 +112,27 @@ span,
 
 
 /*Giriş Butonu*/
-.signin {
-    background-color:red;
+.signup {
+    background-color: red;
     color: #FFF;
     width: 100%;
     padding: 10px 20px;
     display: block;
     height: 39px;
     border-radius: 20px;
-    margin:auto;
+    margin: auto;
     transition: all 0.5s ease-in-out;
     border: none;
     text-transform: uppercase;
 }
-/*Butona basıldığında*/
-    .signin:hover {
+    /*Butona basıldığında*/
+    .signup:hover {
         background: gray;
         box-shadow: 0px 4px 35px -5px #4082f5;
         cursor: pointer;
     }
 
-    .signin:focus {
+    .signup:focus {
         outline: none;
     }
 
@@ -145,11 +142,11 @@ hr {
     position: relative;
 }
 
-.kayit {
+a {
     text-align: center;
     display: block;
-    top:25px;
+    top: 25px;
     position: relative;
     text-decoration: none;
-    color:black;
+    color: black;
 }

@@ -1,7 +1,47 @@
 ﻿
 @{
     ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_RegisterLayout.cshtml";
+
 }
 
-<h1>Register</h1>
+
+<div class="register">
+    <h2 class="active"> Kayıt Ol </h2>
+    <form>
+
+        <input type="text" class="text" name="username">
+        <span>Kullanıcı Adı</span>
+
+        <br>
+
+        <br>
+        <input type="text" class="text" name="surname">
+        <span>Kullanıcı Soyadı</span>
+
+        <br>
+
+        <br>
+        <input type="email" class="text" name="email">
+        <span>Email Adresi</span>
+
+        <br>
+
+        <br>
+
+        <input type="password" class="text" name="password">
+        <span>Şifre</span>
+        <br>
+
+
+        <button class="signup">
+            Kayıt Ol
+        </button>
+
+        <hr>
+        <a asp-controller="Account" asp-action="Login">Mevcut bir hesabınız var mı?</a>
+    </form>
+
+</div>
+
 
