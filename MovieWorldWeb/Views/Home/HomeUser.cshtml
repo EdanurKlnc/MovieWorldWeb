@@ -29,50 +29,54 @@
 	<div class="container">
 		<h3 style="color:red;font-family:cursive; font-size:30px;">MOVIE WORLD</h3>
 	</div>
-<div class="container" >
-	 @foreach (var item in Model)
-    {
-	<div class="movie-card">
-		<div class="movie-header manOfSteel">
-		
-			<div class="header-icon-container" >
-				<img src="@item.Poster_path" alt="image" height="360" width="315" >
-				
-			</div>
-		</div><!--movie-header-->
-		<div class="movie-content">
-			<div class="movie-content-header">
-				<a asp-controller="Home" asp-action="Details"  >
-					
-					<h3 class="movie-title" style="color:black" >@item.Title</h3>
-				</a>
-				<div class="imax-logo"></div>
-			</div>
-			<div class="movie-info">
-				<div class="info-section">
-					<label>Yayın Tarihi</label>
-					<span>@item.Release_date</span>
-				</div><!--date,time-->
 
-				<div class="info-section">
-					<label>Puan</label>
-					<span>@item.Vote_average/10</span>
-				</div><!--screen-->
+	
+	<div class="container">
+		@foreach (var item in Model)
+		{
+			<div class="movie-card">
+				<div class="movie-header manOfSteel">
 
-				<div class="info-section">
-					<label>Orijinal Dil</label>
-					<span>@item.Original_language</span>
-				</div><!--row-->
-				@*<div class="info-section">
+					<div class="header-icon-container">
+						<img src="@item.Poster_path" alt="image" height="360" width="315">
+
+					</div>
+				</div><!--movie-header-->
+				<div class="movie-content">
+					<div class="movie-content-header">
+						<a asp-controller="Home" asp-action="Details">
+
+							<h3 class="movie-title" style="color:black">@item.Title</h3>
+						</a>
+						<div class="imax-logo"></div>
+					</div>
+					<div class="movie-info">
+						<div class="info-section">
+							<label>Yayın Tarihi</label>
+							<span>@item.Release_date</span>
+						</div><!--date,time-->
+
+						<div class="info-section">
+							<label>Puan</label>
+							<span>@item.Vote_average/10</span>
+						</div><!--screen-->
+
+						<div class="info-section">
+							<label>Orijinal Dil</label>
+							<span>@item.Original_language</span>
+						</div><!--row-->
+						@*<div class="info-section">
 					<label>Adult</label>
 					<span>@item.Adult</span>
-				</div><!--seat--*@
+					</div><!--seat--*@
+					</div>
+				</div><!--movie-content-->
 			</div>
-		</div><!--movie-content-->
-	</div><!--movie-card-->
-	}
+
+			<!--movie-card-->
+		}
 
 	</div>
 
 
-	</body>
+</body>
