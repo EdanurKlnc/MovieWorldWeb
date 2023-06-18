@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+
+
+
+<div class="login">
+
+    <h2 class="active"> Giriş Yap </h2>
+    <form>
+        <input type="text" class="text" name="username">
+        <span>Kullanıcı Adı</span>
+        <br>
+        <br>
+        <input type="password" class="text" name="password">
+        <span>Şifre</span>
+        <br>
+
+
+        <button class="signin">
+            Giriş Yap
+        </button>
+
+        <hr />
+        <a class="kayit" asp-controller="Home" asp-action="Register">Hesabınız yok mu? Kayıt Ol</a>
+        <hr />
+        <a class="kayit" asp-controller="Home" asp-action="Index" style="font-size:20px">Anasayfaya Dön</a>
+
+    </form>
+
+</div>

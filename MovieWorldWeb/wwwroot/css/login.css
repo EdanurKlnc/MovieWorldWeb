@@ -13,33 +13,29 @@
     color: #fff;
     font-size: 14px;
     letter-spacing: 1px;
-   
+
 }
 
+/*Giriş kart*/
 .login {
     position: relative;
     height: 460px;
     width: 305px;
-    margin: auto;
     padding: 40px 40px;
-    border-radius:3px;
+    margin:auto;
+    margin-top:70px;
+    border-radius:10px;
     border-block-color:black;
-    /*background: url(https://harbiyiyorum.com/wp-content/uploads/patlamismisir1-560x560.jpg) no-repeat center center #505050;
-    background-size: cover;*/
     box-shadow: 0px 30px 60px -5px #000;
-    background-color:transparent;
+    background-color: rgba(120,120,120,0.5)
 }
 
 form {
-    padding-top: 70px;
+    padding-top: 80px;
 }
 
 .active {
     border-bottom: 2px solid #1161ed;
-}
-
-.nonactive {
-    color: rgba(255, 255, 255, 0.2);
 }
 
 h2 {
@@ -50,6 +46,7 @@ h2 {
     letter-spacing: 2px;
     display: inline-block;
     font-weight: 100;
+    
 }
 
     h2:first-child {
@@ -58,14 +55,16 @@ h2 {
 
 span {
     text-transform: uppercase;
-    font-size: 12px;
-    opacity: 0.4;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: 15px;
     display: inline-block;
     position: relative;
     top: -65px;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.8s ease-in-out;
+    
 }
-
+/*text in girileceği alan*/
 .text {
     border: none;
     width: 89%;
@@ -73,7 +72,7 @@ span {
     display: block;
     height: 15px;
     border-radius: 20px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.5);
     border: 2px solid rgba(255, 255, 255, 0);
     overflow: hidden;
     margin-top: 15px;
@@ -111,55 +110,27 @@ span,
     margin-left: 20px;
 }
 
-.custom-checkbox {
-    -webkit-appearance: none;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 8px;
-    border-radius: 2px;
-    display: inline-block;
-    position: relative;
-    top: 6px;
-}
 
-    .custom-checkbox:checked {
-        background-color: rgba(17, 97, 237, 1);
-    }
 
-        .custom-checkbox:checked:after {
-            content: '\2714';
-            font-size: 10px;
-            position: absolute;
-            top: 1px;
-            left: 4px;
-            color: #fff;
-        }
 
-    .custom-checkbox:focus {
-        outline: none;
-    }
 
-label {
-    display: inline-block;
-    padding-top: 10px;
-    padding-left: 5px;
-}
-
+/*Giriş Butonu*/
 .signin {
-    background-color: #1161ed;
+    background-color:red;
     color: #FFF;
     width: 100%;
     padding: 10px 20px;
     display: block;
     height: 39px;
     border-radius: 20px;
-    margin-top: 30px;
+    margin:auto;
     transition: all 0.5s ease-in-out;
     border: none;
     text-transform: uppercase;
 }
-
+/*Butona basıldığında*/
     .signin:hover {
-        background: #4082f5;
+        background: gray;
         box-shadow: 0px 4px 35px -5px #4082f5;
         cursor: pointer;
     }
@@ -174,11 +145,11 @@ hr {
     position: relative;
 }
 
-a {
+.kayit {
     text-align: center;
     display: block;
-    top: 120px;
+    top:25px;
     position: relative;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.2);
+    color:black;
 }
