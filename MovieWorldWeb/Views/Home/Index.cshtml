@@ -3,8 +3,6 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,8 +20,8 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" class="dark-theme">
 
-  
-    <!-- page header -->
+
+    <!-- Anasayfa -->
     <header class="header">
         <div class="overlay"></div>
         <div class="header-content">
@@ -35,7 +33,8 @@
             <button class="btn btn-theme-color modal-toggle"><i class="ti-control-play text-danger"></i> Watch Video</button>
 
         </div>
-    </header><!-- end of page header -->
+    </header>
+    <!-- end of anasayfa -->
     <!-- modal -->
     <div class="modalBox">
         <div class="modalBox-body">
@@ -44,7 +43,12 @@
             </iframe>
         </div>
     </div><!-- end of modal -->
-    <!-- page container 2.Kısım -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <!-- page container 2.Kısım ödül alanlar-->
     <div class="container page-container">
         <div class="col-md-10 col-lg-8 m-auto">
             <h6 class="title mb-4">2023 Oscar Ödüller</h6>
@@ -73,7 +77,7 @@
             </div>
             <div class="col-md-4">
                 <a href="javascript:void(0)" class="overlay-img">
-                    <img src="https://img01.imgsinemalar.com/images/afis_buyuk/b/the-whale-1677241472.jpg" alt="image" style="height:500px">
+                    <img src="https://c.ndtvimg.com/2023-05/khl7aa98_brendan-fraser_625x300_07_May_23.jpg" alt="image" style="height:500px">
                     <div class="overlay"></div>
                     <div class="des">
                         <h1 class="title">En İyi Erkek Oyuncu</h1>                     
@@ -99,53 +103,38 @@
             </div>
         </div><!-- end of row -->
 
-        <a href="#">Load More <i class="ti-angle-double-right angle"></i></a>
+       @* <a href="#">Load More <i class="ti-angle-double-right angle"></i></a>*@
 
-        <!--3.KISIM-->
+        <!--3 Hakkımızda-->
         <div class="col-md-10 col-lg-8 m-auto">
-            <h6 class="title mb-4 mt-5 pt-5">3.Kısım</h6>
+            <h6 class="title mb-4 mt-5 pt-5">Hakkımızda</h6>
             <p class="mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim.
+                Movie World <a href="https://developer.themoviedb.org/reference/intro/getting-started">TMBD</a> sayfasında bulunan filmlerin API ile listelendiği bir projedir.
+                Proje Visual Studio .Net 6 ASP.NET MVC CORE ile geliştirilmiştir. Projenin tüm hakları <a href="https://github.com/EdanurKlnc?tab=projects">şahsıma</a> aittir.Projenin kodlarını incelemek için <a href="https://github.com/EdanurKlnc/MovieWorldWeb">Githup deposuna </a> bakabilirsiniz.
             </p>
         </div>
 
         <!-- row -->
         <div class="row mb-5">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <a href="javascript:void(0)" class="card">
-                    <img src="assets/imgs/blog-1.jpg" class="card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">
+                    <img src="https://i.pinimg.com/280x280_RS/bb/59/9f/bb599fe34e442ddc7152222199b4f150.jpg" class="card-img" style="height:350px;width:400px">
                     <div class="card-body">
-                        <h6 class="card-subtitle">30 June, 2018</h6>
+                        <h6 class="card-subtitle">18 Haziran ,2023</h6>
                         <h3 class="card-title">
-                            Eiusmod
-                            tempor
+                            MOVİE WORLD
                         </h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
+                       
                     </div>
                 </a>
             </div>
-            <div class="col-md-6">
-                <a href="javascript:void(0)" class="card">
-                    <img src="assets/imgs/blog-2.jpg" class="card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">
-                    <div class="card-body">
-                        <h6 class="card-subtitle">29 June, 2018</h6>
-                        <h3 class="card-title">Ut minim veniam</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </div>
-                </a>
-            </div>
+           
         </div><!-- end of row -->
 
-        <a href="#">All Posts <i class="ti-angle-double-right angle"></i></a>
+      @*  <a href="#">All Posts <i class="ti-angle-double-right angle"></i></a>*@
 
-    </div> <!-- end of page container -->
+    </div> <!-- end of page container 2.kısım -->
+
     <!--footer & pre footer -->
     <div class="contact-section">
         <div class="overlay"></div>
@@ -167,9 +156,9 @@
                 <p class="infos">&copy; <script>document.write(new Date().getFullYear())</script>, Made with <i class="ti-heart text-danger"></i> by <a href="http://www.devcrud.com">DevCRUD</a></p>
                 <span>|</span>
                 <div class="links">
-                    <a href="#">About</a>
-                    <a href="#">Explore</a>
-                    <a href="#">Journal</a>
+                    <a asp-controller="Home" asp-action="Index">Anasayfa</a>
+                    <a href="#">Hakkımızda</a>
+                    <a asp-controller="Account" asp-action="Login">Giriş</a>
                 </div>
             </footer><!-- end of footer -->
 
