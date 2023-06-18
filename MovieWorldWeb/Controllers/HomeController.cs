@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using MovieWorldWeb.Models;
 using MovieWorldWebEL.ResultModels;
 using MovieWorldWebEL.ViewModels;
@@ -30,6 +31,11 @@ namespace MovieWorldWeb.Controllers
         public IActionResult Contact()
         {
             return View();
+        }
+        public IActionResult Details()
+        {
+            return View();  
+            
         }
 
         public IActionResult HomeUser()
