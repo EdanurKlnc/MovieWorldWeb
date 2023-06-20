@@ -34,4 +34,19 @@ SQL bağlantısı olmadan filmlere erişmek için projeyiğ çalıştırdıktan 
 
 ![filmler](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/1363f976-a0b4-4c6a-a092-5348a5412a4f)
 
+## Proje Backend
+![Solution](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/490235f0-c852-4016-a81b-3eb06ec2df28)
+
+![solution2](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/bfacbc55-f5a2-48bb-85c6-e72c1bbdd32a)
+
+![model](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/14ab32e4-255c-451a-920d-ba6f68558fe6)
+
+![registerkod](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/7f9a98ba-94ab-4d61-84f5-55bc93e874b7)
+
+![loginkod](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/2e9c2a8f-4c49-45ce-9622-cf92d97cd078)
+
+
+
+
+
 
