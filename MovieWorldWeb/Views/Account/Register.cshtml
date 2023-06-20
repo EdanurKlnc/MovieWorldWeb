@@ -1,34 +1,33 @@
-﻿@{
+﻿@model RegisterViewModels
+@{
     ViewData["Title"] = "Register";
     Layout = "~/Views/Shared/_RegisterLayout.cshtml";
 
 }
-
-
 <div class="register">
     <h2 class="active"> Kayıt Ol </h2>
-    <form>
+    <form asp-controller="Account" asp-action="Register">
 
-        <input type="text" class="text" name="username">
+        <input type="text" class="text" name="username" asp-for="Username">
         <span>Kullanıcı Adı</span>
 
         <br>
 
         <br>
-        <input type="text" class="text" name="surname">
+        <input type="text" class="text" name="surname" asp-for="Surname">
         <span>Kullanıcı Soyadı</span>
 
         <br>
 
         <br>
-        <input type="email" class="text" name="email">
+        <input type="email" class="text" name="email" asp-for="Email">
         <span>Email Adresi</span>
 
         <br>
 
         <br>
 
-        <input type="password" class="text" name="password">
+        <input type="password" class="text" name="password" asp-for="Password">
         <span>Şifre</span>
         <br>
 
