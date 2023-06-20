@@ -13,9 +13,25 @@ Projenin tüm hakları şahsıma aittir. Kodlarını inceleyebilir ve geliştire
 * Projenin kullanıcı yönetimi Aspnet.Identity CORE ile yazılmıştır.
 * Projenin FrontEnd kısmı hazır tema giydirmesi ve yeniden oluşturma olarak 2 şekilde hazırlanmış, HTML, CSS ,JavaScript kullanılmıştır.
 * Proje 2 katman (UI,EL) olarak yazıldı.
-
-
+  
 ### SQL Bağlantısı
 Projeyi çalıştırdığınızda login sayfası açılmaktadır. Kullanıcı bilgileri local SQL'de tutulmaktadır. Kullanıcı kayıt etmek ve kullanıcı girişi için projenin appsettings.json dosyasından kendi SQL bilgilerinizi ekleyip veritabanı oluşturunuz.
 SQL bağlantısı olmadan filmlere erişmek için projeyiğ çalıştırdıktan sonra https://localhost:7163/home/homeuser bağlantısını kullanabilirsiniz.
+
+## Proje Frontend Çıktıları
+
+![Anasayfa](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/590c3380-9b8c-42fb-83c4-602ce6ff0aa8)
+
+![Ödüller](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/3d576e6b-588c-4642-9637-691682d84421)
+
+![iletisim](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/b81b1715-e265-4043-bedf-1e1894ac4a5f)
+
+![Giriş](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/cb3f6798-cdbc-48fe-b95f-16cbe8b994a5)
+
+![Kayıt](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/61ee763a-d44e-4bc5-971c-5d2101d64c95)
+
+![liste](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/8470a49a-e8f4-4792-8c35-a3c411051a85)
+
+![filmler](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/1363f976-a0b4-4c6a-a092-5348a5412a4f)
+
 
