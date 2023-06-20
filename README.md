@@ -16,5 +16,6 @@ Projenin tüm hakları şahsıma aittir. Kodlarını inceleyebilir ve geliştire
 
 
 ### SQL Bağlantısı
-Projeyi çalıştırdığınızda login sayfası açılmaktadır. Kullanıcı bilgileri local SQL'de tutulmaktadır. Kullanıcı kayıt etmek ve kullanıcı girişi için projenin appsettings.json dosyasından kendi SQL bilgilerinizi ekleyip veritabanı oluşturunuz..
+Projeyi çalıştırdığınızda login sayfası açılmaktadır. Kullanıcı bilgileri local SQL'de tutulmaktadır. Kullanıcı kayıt etmek ve kullanıcı girişi için projenin appsettings.json dosyasından kendi SQL bilgilerinizi ekleyip veritabanı oluşturunuz.
+SQL bağlantısı olmadan filmlere erişmek için projeyiğ çalıştırdıktan sonra https://localhost:7163/home/homeuser bağlantısını kullanabilirsiniz.
 
