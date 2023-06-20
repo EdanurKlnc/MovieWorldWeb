@@ -45,6 +45,9 @@ SQL bağlantısı olmadan filmlere erişmek için projeyiğ çalıştırdıktan 
 
 ![loginkod](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/2e9c2a8f-4c49-45ce-9622-cf92d97cd078)
 
+![html](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/5678d65f-70b6-4d97-bbef-2c9c44dbb9e6)
+
+
 
 
 
