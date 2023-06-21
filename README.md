@@ -19,37 +19,30 @@ Projeyi çalıştırdığınızda login sayfası açılmaktadır. Kullanıcı bi
 SQL bağlantısı olmadan filmlere erişmek için projeyiğ çalıştırdıktan sonra https://localhost:7163/home/homeuser bağlantısını kullanabilirsiniz.
 
 ## Proje Frontend Çıktıları
+![Anasayfa](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/c87d4bdc-9278-4f57-82d8-c64d5d6bd5e9)
 
-![Anasayfa](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/590c3380-9b8c-42fb-83c4-602ce6ff0aa8)
+![Ödüller](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/ffa0a35b-8ad1-4d4b-9aae-ecaf9d45e0b5)
 
-![Ödüller](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/3d576e6b-588c-4642-9637-691682d84421)
+![iletisim](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/d1e071c9-eb6f-4372-a9b7-e7c5356b170a)
 
-![iletisim](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/b81b1715-e265-4043-bedf-1e1894ac4a5f)
+![Giriş](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/89177684-ab2a-46ee-88f5-69b412de5a8f)
 
-![Giriş](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/cb3f6798-cdbc-48fe-b95f-16cbe8b994a5)
+![Kayıt](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/7726a135-d85f-4d6a-a0b2-d9c55677df79)
 
-![Kayıt](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/61ee763a-d44e-4bc5-971c-5d2101d64c95)
+![liste](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/6fbceed9-1b9c-4c81-9db4-22ca69430e26)
 
-![liste](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/8470a49a-e8f4-4792-8c35-a3c411051a85)
-
-![filmler](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/1363f976-a0b4-4c6a-a092-5348a5412a4f)
+![filmler](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/c9486918-6ca5-412a-b023-deb6a3f8b924)
 
 ## Proje Backend
-![Solution](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/490235f0-c852-4016-a81b-3eb06ec2df28)
+![Solution](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/69315882-0c0e-407e-9339-51a69a9f617c)
 
-![solution2](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/bfacbc55-f5a2-48bb-85c6-e72c1bbdd32a)
+![solution2](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/e978cfaa-34d8-4fc2-85ae-ce6b4f6a9563)
 
-![model](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/14ab32e4-255c-451a-920d-ba6f68558fe6)
+![model](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/55cd2a95-0a54-4db4-b3e7-3e37190c4ff2)
 
-![registerkod](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/7f9a98ba-94ab-4d61-84f5-55bc93e874b7)
+![registerkod](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/754da011-516c-4894-80fd-682c073a58c9)
 
-![loginkod](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/2e9c2a8f-4c49-45ce-9622-cf92d97cd078)
+![loginkod](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/4eaf4798-7508-4586-9e22-edc12b95e778)
 
-![html](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/5678d65f-70b6-4d97-bbef-2c9c44dbb9e6)
-
-
-
-
-
-
+![html](https://github.com/EdanurKlnc/MovieWorldWeb/assets/77683001/cbd0aea2-70e3-4145-ad1c-48cff95eb919)
 
